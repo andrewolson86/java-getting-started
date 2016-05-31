@@ -23,3 +23,22 @@ public class Main {
 
     }
 }
+/*
+import java.util.Scanner;
+
+public class Main {
+    
+    public static void main(String[] args) {
+        Scanner reader = new Scanner(System.in);
+        System.out.println("Enter principle: ");
+        int x = reader.nextInt();
+        System.out.println("Enter your ending value: ");
+        int y = reader.nextInt();
+        System.out.println("Enter how many years your loan is over: ");
+        int z = reader.nextInt();
+        
+        System.out.println("The rate of your return is: " + (Math.pow((y / x), z)-1));
+    }
+}
+here is what I ended with. Using the equation R = (E/B) ^(1/N) - 1. B is the begining value E is the ending and the N is
+the number of years the loan was over. I did get it to compile and work just fine. is there anything I should have changed in it?
