@@ -1,0 +1,14 @@
+class Economics {
+  public double computeRate() {}
+}
+
+class Finance extends Economics {
+  public double computeRate (...) {}
+}
+
+public class Rate {  //driver class public... main
+  Finance f = new Finance();
+  
+/*
+this is what he gave us all to start
+*/
