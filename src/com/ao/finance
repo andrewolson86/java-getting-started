@@ -1,0 +1,17 @@
+import java.util.Scanner;
+
+public class Main {
+    
+    public static void main(String[] args) {
+        Scanner reader = new Scanner(System.in);
+        System.out.println("Enter principle: ");
+        double x = reader.nextInt();
+        System.out.println("Enter your ending value: ");
+        double y = reader.nextInt();
+        System.out.println("Enter how many years your loan is over: ");
+        double z = reader.nextInt();
+        
+        System.out.println("The rate of your return is: " + (Math.pow((y / x), z)-1));
+    }
+}
+       
